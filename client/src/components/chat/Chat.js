@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { UserContext } from '../../UserContext';
-import { Link, useParams, Redirect } from 'react-router-dom';
+import { useParams, Redirect } from 'react-router-dom';
 import io from 'socket.io-client';
 import Messages from './messages/Messages';
 import Input from './input/Input';

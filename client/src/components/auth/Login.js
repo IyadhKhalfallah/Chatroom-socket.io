@@ -64,35 +64,6 @@ const Login = () => {
           </button>
         </div>
       </form>
-
-        // <div className="row">
-        //     <h3>Login</h3>
-        //     <form className="col s12" onSubmit={submitHandler}>
-        //         <div className="row">
-        //             <div className="input-field col s12">
-        //                 <input id="email" type="email" className="validate"
-        //                     value={email}
-        //                     onChange={e => setEmail(e.target.value)}
-        //                 />
-        //                 <div className="email error red-text">{emailError}</div>
-        //                 <label htmlFor="email">Email</label>
-        //             </div>
-        //         </div>
-        //         <div className="row">
-        //             <div className="input-field col s12">
-        //                 <input id="password" type="password" className="validate"
-        //                     value={password}
-        //                     onChange={e => setPassword(e.target.value)}
-        //                 />
-        //                 <div className="password error red-text">{passwordError}</div>
-        //                 <label htmlFor="password">Password</label>
-        //             </div>
-        //         </div>
-
-        //         <button className="btn">Login</button>
-        //     </form>
-        // </div>
-
     )
 }
 
