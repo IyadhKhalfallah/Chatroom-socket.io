@@ -20,6 +20,12 @@ A list of user IDs joined by the user is available in the homepage, with an indi
 ### 3. Messaging:
 Real-time messaging is available in each room, where users can send / receive messages instantly. Added to that, a messaging history is available so that the messages are persisted in each room.  
 
+### 4. Connection degree between users (Backend queries only):
+This part is available under the adminControllers.<br/>
+It mainly detects the connection degree between two users (LinkedIn-like):
+- 1st degree: Directly connected.
+- 2nd degree: A and B are not directly connected but there is a C where (A, C) and (B, C) are directly connnection.
+- 3rd degree: There are C and D where: (A, C), (B, D) and (C, D) are directly connected (1st degree).
 ### 4. App screenshots
 ![Alt text](./images/sign-in.png?raw=true "Sign In")
 ![Alt text](./images/home.png?raw=true "Homepage")
